@@ -4,6 +4,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\helpers\Url;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -30,7 +31,7 @@ AppAsset::register($this);
                 <div class="header-links menu" id="index">
                     <img src="web/css/ico_home.png">
                     <img src="web/css/ico_home_green.png">
-                    <a href="#" tabindex="0"></a>
+                    <a href=<?= Url::to(['index']) ?> tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
                     <img src="web/css/ico_content.png">

@@ -10,6 +10,7 @@ $config = [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'OlbhFCuCzyL8SSNi2z32_9ZL3EOUXbNw',
+            'class' => 'app\components\Request',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -40,6 +41,9 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'rules'=>[
+                'home'=>'site/index'
+            ]
         ],
         'db' => require(__DIR__ . '/db.php'),
     ],
