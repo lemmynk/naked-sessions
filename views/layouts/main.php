@@ -31,22 +31,22 @@ AppAsset::register($this);
                 <div class="header-links menu" id="index">
                     <img src="web/css/ico_home.png">
                     <img src="web/css/ico_home_green.png">
-                    <a href=<?= Url::to(['index']) ?> tabindex="0"></a>
+                    <a href=<?= Url::to(['site/index']) ?> tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
                     <img src="web/css/ico_content.png">
                     <img src="web/css/ico_content_green.png">
-                    <a href="#" tabindex="0"></a>
+                    <a href=<?= Url::to(['site/content']) ?> tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
                     <img src="web/css/ico_com.png">
                     <img src="web/css/ico_com_green.png">
-                    <a href="#" tabindex="0"></a>
+                    <a href=<?= Url::to(['site/comments']) ?> tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
                     <img src="web/css/ico_about.png">
                     <img src="web/css/ico_about_green.png">
-                    <a href="#" tabindex="0"></a>
+                    <a href=<?= Url::to(['site/about']) ?> tabindex="0"></a>
                 </div>
                 <div class="header-links">
                     <img src="web/css/ico_log_red.png" data-exit="no-exit">

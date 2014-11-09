@@ -93,4 +93,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionContent()
+    {
+        return $this->render('content');
+    }
+
+    public function actionComments()
+    {
+        return $this->render('comments');
+    }
 }

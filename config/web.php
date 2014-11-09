@@ -42,7 +42,10 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules'=>[
-                'home'=>'site/index'
+                'home'=>'site/index',
+                'content'=>'site/content',
+                'about'=>'site/about',
+                'comments'=>'site/comments'
             ]
         ],
         'db' => require(__DIR__ . '/db.php'),
