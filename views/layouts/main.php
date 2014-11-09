@@ -28,28 +28,28 @@ AppAsset::register($this);
         <div id="site-body">
             <div id="header-container">
                 <div class="header-links menu" id="index">
-                    <img src="css/ico_home.png">
-                    <img src="css/ico_home_green.png">
+                    <img src="web/css/ico_home.png">
+                    <img src="web/css/ico_home_green.png">
                     <a href="#" tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
-                    <img src="css/ico_content.png">
-                    <img src="css/ico_content_green.png">
+                    <img src="web/css/ico_content.png">
+                    <img src="web/css/ico_content_green.png">
                     <a href="#" tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
-                    <img src="css/ico_com.png">
-                    <img src="css/ico_com_green.png">
+                    <img src="web/css/ico_com.png">
+                    <img src="web/css/ico_com_green.png">
                     <a href="#" tabindex="0"></a>
                 </div>
                 <div class="header-links menu">
-                    <img src="css/ico_about.png">
-                    <img src="css/ico_about_green.png">
+                    <img src="web/css/ico_about.png">
+                    <img src="web/css/ico_about_green.png">
                     <a href="#" tabindex="0"></a>
                 </div>
                 <div class="header-links">
-                    <img src="css/ico_log_red.png" data-exit="no-exit">
-                    <img src="css/ico_log2.png">
+                    <img src="web/css/ico_log_red.png" data-exit="no-exit">
+                    <img src="web/css/ico_log2.png">
                     <!--<a href="log.php"></a>-->
                 </div>
             </div>

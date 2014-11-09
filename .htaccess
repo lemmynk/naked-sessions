@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+    #Options +FollowSymlinks
+    RewriteEngine On
+    RewriteRule ^$ web/
+</IfModule>
+
+#<IfModule mod_rewrite.c>
+
+#RewriteCond %{REQUEST_URI} ^/(web)
+#RewriteRule ^web/assets/(.*)$ web/assets/$1 [L]
+#RewriteRule ^web/css/(.*)$ web/css/$1 [L]
+#RewriteRule ^web/js/(.*)$ web/js/$1 [L]
+
+#RewriteCond %{REQUEST_URI} !^/web/(assets|css|js)/
+#RewriteCond %{REQUEST_URI} ^/(web)
+#RewriteRule ^.*$ web/index.php [L]
+
+
+#RewriteCond %{REQUEST_URI} !^/(web)/(assets|css|js)/
+#RewriteCond %{REQUEST_URI} !index.php
+#RewriteCond %{REQUEST_FILENAME} !-f [OR]
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^.*$ web/index.php
+
+#</IfModule>
